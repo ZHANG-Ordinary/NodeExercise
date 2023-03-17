@@ -1,4 +1,5 @@
 const path = require('path')
+//__dirname 绝对路径
 console.log(path.resolve(__dirname, "index.html"));
 console.log(path.resolve(__dirname, './index.html'));
 //上面打印都是C:\Users\Zha\Desktop\vue ajax\node1\path\index.html
